@@ -15,6 +15,10 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "stripInternal": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    }
   },
   "include": ["src"]
 }
